@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.inpi.model.Tb_Recuperacao;
 
 @Repository
-public interface Tb_RecuperacaoRepository extends JpaRepository<Tb_Recuperacao, Long>{
+public interface Tb_RecuperacaoRepository extends JpaRepository<Tb_Recuperacao, String>{
 	
 	
 }

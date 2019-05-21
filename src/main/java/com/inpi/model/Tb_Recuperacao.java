@@ -27,10 +27,7 @@ public class Tb_Recuperacao implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 
-	@Id 
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
-	
+	@Id 	
 	@Column(name = "nu_gru", length = 30, nullable = false)
 	private String nu_Gru;
 	
