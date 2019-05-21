@@ -8,6 +8,6 @@ import com.inpi.model.Tb_DocPagamento;
 @Repository
 public interface Tb_DocPagamentoRepository extends JpaRepository<Tb_DocPagamento, Long> {
 	
-	Tb_DocPagamento findByNumNossoNumero(String numnossonumero);
+	 Tb_DocPagamento findByNumNossoNumero(String numnossonumero);
 
 }

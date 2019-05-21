@@ -7,5 +7,7 @@ import com.inpi.model.Tb_Recuperacao;
 
 @Repository
 public interface Tb_RecuperacaoRepository extends JpaRepository<Tb_Recuperacao, Long>{
-
+	
+	
 }
+ 
