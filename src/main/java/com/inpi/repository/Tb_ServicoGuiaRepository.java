@@ -8,6 +8,6 @@ import com.inpi.model.Tb_ServicoGuia;
 @Repository
 public interface Tb_ServicoGuiaRepository extends JpaRepository<Tb_ServicoGuia, Long>{
 	
-	//Tb_ServicoGuia findByNumNossoNumero(String numnossonumero);
+	Tb_ServicoGuia findByNumNossoNumero(String numnossonumero);
 
 }
