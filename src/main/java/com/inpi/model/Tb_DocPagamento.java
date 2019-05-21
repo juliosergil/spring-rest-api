@@ -1,6 +1,7 @@
 package com.inpi.model;
 
-import java.sql.Date;
+import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -17,7 +18,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter  @Setter
 @Entity(name = "tb_docpagamento")
-public class Tb_DocPagamento {
+public class Tb_DocPagamento implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO )
